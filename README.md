@@ -6,12 +6,12 @@ In this analysis we focused on a reporting dataset for a school district. In our
 
 ## Results
 * **How is the district summary affected?**
-The district summary change from the original (seen in "District Summary Original") was very minimal. As we see from the screenshot "District Summary New" we had to use our unformatted code in order to analyze the change, as it resulted in a small percentage change.<br></br>
-<img src ="Resources/district_sum_challenge.png" width = "300" alt ="new district sum" title ="District Summary New"/>
-<img src ="Resources/district_sum_original.png" width = "300" alt ="og dis sum" title ="District Summary Original"/>
-<br></br>
-As we can see above, we are not able to see the change without providing the unformatted columns produced by our score averages and percentages passed. The reason that the change is so minimal is due to the size of ninth graders at Thomas High School. As we can see from the "Ninth Grade Results" snapshot code, our new sample size is 38709 resulting in a change of 461 removed scores, calculated by subtracting the ninth graders from Thomas High School, from the total students of 39170 calculated by the "Total Student Calculation Code".
-If we divide 38709/39170 we get 1.011% of students that were in the ninth grade at Thomas High School that were removed from the data set.
+    The district summary change from the original (seen in "District Summary Original") was very minimal. As we see from the screenshot "District Summary New" we had to use our unformatted code in order to analyze the change, as it resulted in a small percentage change.<br></br>
+    <img src ="Resources/district_sum_challenge.png" width = "300" alt ="new district sum" title ="District Summary New"/>
+    <img src ="Resources/district_sum_original.png" width = "300" alt ="og dis sum" title ="District Summary Original"/>
+    <br></br>
+    As we can see above, we are not able to see the change without providing the unformatted columns produced by our score averages and percentages passed. The reason that the change is so minimal is due to the size of ninth graders at Thomas High School. As we can see from the "Ninth Grade Results" snapshot code, our new sample size is 38709 resulting in a change of 461 removed scores, calculated by subtracting the ninth graders from Thomas High School, from the total students of 39170 calculated by the "Total Student Calculation Code".
+    If we divide 38709/39170 we get 1.011% of students that were in the ninth grade at Thomas High School that were removed from the data set.
 
     <img src ="Resources/ninth_grade_removal.png" width = "300" alt ="grade9rem" title ="Ninth Grade Results"/>
     <img src ="Resources/Total_Student_Size.png" width = "300" alt ="totstucalc" title ="Total Student Calculation"/>
@@ -64,7 +64,7 @@ If we divide 38709/39170 we get 1.011% of students that were in the ninth grade 
     * Scores by school type
         
          As we can see from the snapshots below, the only type bucket that changed was the type  bucket that THS fell into, District. The percentage varied by a very small percentage, likely due to only changing roughly 400 records. Also note that we would not see this change unless the data was unformatted.
-         
+
          <img src ="Resources/type_old.png" width = "300" alt ="sizeold" title ="School Type Old"/>
           <img src ="Resources/type_new.png" width = "300" alt ="typenew" title ="School Type New"/>
 
