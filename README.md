@@ -45,6 +45,7 @@ In this analysis we focused on a reporting dataset for a school district. In our
         
         By comparing the original reading and math scores to the new reading and math scores the only change that we will see will come with the NaN value that we used by replacing the ninth-grade scores for THS. This was done in the "Null Value Code" snapshot.
         Because only the 9th grade class for THS was altered, we will only see that change in our new analysis. 
+        
         <img src ="Resources/np.nan_calc.png" width = "300" alt ="nullcalc" title ="Null Value Code"/>
 
 
